@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: partner-catalog-ec-0lmh
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/samburrai-tenant/partner-catalog-ec/partner-catalog-ec-0lmh@sha256:18162b045efa7ee626fa07a6ea186365c586ea4612d05eb3ad9a22b6e20db711
+      - image: quay.io/redhat-user-workloads/samburrai-tenant/partner-catalog-ec/partner-catalog-ec-0lmh@sha256:94ee8db92205a59af06fa0f3df006de40ef434d61b9ec090e3d6da938d990d5a
         name: my-java-springboot
         resources: {}
 status: {}
