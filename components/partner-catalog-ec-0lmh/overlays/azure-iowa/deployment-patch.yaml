@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/samburrai-tenant/partner-catalog-ec/partner-catalog-ec-0lmh@sha256:138b75f9c81a52272360a5f4e595f5ef87d03710a0cc0b38e55ca28160c563c0
+      - image: quay.io/redhat-user-workloads/samburrai-tenant/partner-catalog-ec/partner-catalog-ec-0lmh@sha256:18162b045efa7ee626fa07a6ea186365c586ea4612d05eb3ad9a22b6e20db711
         name: my-java-springboot
         resources: {}
 status: {}
